@@ -18,3 +18,8 @@ it("deve retornar 'buzz' se o numero for múltiplo de 5", () => {
   expect(fizzbuzz(10)).toBe('buzz');
   expect(fizzbuzz(20)).toBe('buzz');
 });
+
+it("deve retorna 'fizzbuzz' se o numero for múltiplo de 3 e 5", () => {
+  expect(fizzbuzz(15)).toBe('fizzbuzz');
+  expect(fizzbuzz(30)).toBe('fizzbuzz');
+});
